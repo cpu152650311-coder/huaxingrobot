@@ -53,6 +53,11 @@ export const metadata: Metadata = {
     siteName: 'AOMAN FUTURE',
     type: 'website',
   },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'CADEBOT L100 Delivery Robot | AOMAN FUTURE',
+    description: 'Explore CADEBOT L100, the AOMAN FUTURE autonomous delivery robot for restaurants, hotels, hospitals, and enterprise logistics.',
+  },
 }
 
 export default function CadebotL100Page() {
@@ -272,7 +277,7 @@ export default function CadebotL100Page() {
                   <p className="text-teal text-xs font-semibold mb-2">{r.cat}</p>
                   <p className="text-ink-muted text-sm mb-5">{r.desc}</p>
                   <div className="flex gap-3">
-                    <Link href={r.href} className="flex-1 text-center border border-brand text-brand py-2.5 rounded-lg font-semibold text-sm hover:bg-brand hover:text-white transition">Learn More</Link>
+                    <Link href={r.href} className="flex-1 text-center border border-brand text-brand py-2.5 rounded-lg font-semibold text-sm hover:bg-brand hover:text-white transition">{`View ${r.name} — ${r.cat}`}</Link>
                     <OpenInquiryButton className="flex-1 bg-brand text-white py-2.5 rounded-lg font-semibold text-sm hover:bg-brand-hover transition">Inquire</OpenInquiryButton>
                   </div>
                 </div>

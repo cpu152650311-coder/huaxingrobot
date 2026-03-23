@@ -345,10 +345,9 @@ export default function HomePage() {
                   <div className="flex gap-2 mt-auto">
                     <Link
                       href={p.href}
-                      aria-label={`Learn more about ${p.name}`}
                       className="flex-1 text-center border border-line text-ink text-sm font-semibold py-2.5 rounded-lg hover:border-brand hover:text-brand transition-colors"
                     >
-                      Learn More
+                      {`View ${p.name} — ${p.badge} robot specs`}
                     </Link>
                     <OpenInquiryButton
                       className="flex-1 bg-brand text-white text-sm font-semibold py-2.5 rounded-lg hover:bg-brand-hover transition-colors"

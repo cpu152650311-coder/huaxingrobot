@@ -52,6 +52,11 @@ export const metadata: Metadata = {
     siteName: 'AOMAN FUTURE',
     type: 'website',
   },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'CLEINBOT M79 Cleaning Robot | AOMAN FUTURE',
+    description: 'Explore CLEINBOT M79, the AOMAN FUTURE autonomous floor cleaning robot for malls, airports, hotels, hospitals, and large commercial spaces.',
+  },
 }
 
 export default function CleinbotM79Page() {
@@ -212,7 +217,7 @@ export default function CleinbotM79Page() {
                   <p className="text-teal text-xs font-semibold mb-2">{r.cat}</p>
                   <p className="text-ink-muted text-sm mb-5">{r.desc}</p>
                   <div className="flex gap-3">
-                    <Link href={r.href} className="flex-1 text-center border border-teal text-teal py-2.5 rounded-lg font-semibold text-sm hover:bg-teal hover:text-white transition">Learn More</Link>
+                    <Link href={r.href} className="flex-1 text-center border border-teal text-teal py-2.5 rounded-lg font-semibold text-sm hover:bg-teal hover:text-white transition">{`View ${r.name} — ${r.cat}`}</Link>
                     <OpenInquiryButton className="flex-1 bg-teal text-white py-2.5 rounded-lg font-semibold text-sm hover:bg-teal-hover transition">Inquire</OpenInquiryButton>
                   </div>
                 </div>
