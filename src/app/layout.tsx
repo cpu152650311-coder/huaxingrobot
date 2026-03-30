@@ -2,6 +2,7 @@ import "@/styles/globals.css";
 
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
+import Script from "next/script";
 import { Toaster } from "sonner";
 
 export const metadata: Metadata = {
@@ -36,6 +37,20 @@ export default function RootLayout({
 }: Readonly<{ children: React.ReactNode }>) {
 	return (
 		<html lang="en" className={inter.variable}>
+			<head>
+				<Script
+					src="https://www.googletagmanager.com/gtag/js?id=AW-18040004274"
+					strategy="beforeInteractive"
+				/>
+				<Script id="google-ads-gtag" strategy="beforeInteractive">
+					{`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'AW-18040004274');
+          `}
+				</Script>
+			</head>
 			<body className="bg-[#F8FAFB] overflow-x-hidden font-[Inter,sans-serif]">
 				{children}
 				<Toaster position="top-center" richColors />
