@@ -24,7 +24,12 @@ export const metadata: Metadata = {
 		title: "AOMAN FUTURE - Humanoid & Smart Service Robots",
 		description: "AOMAN FUTURE - Global leader in humanoid robots and intelligent service robots. Explore CADEBOT, CLEINBOT, CRUZR solutions.",
 	},
-	icons: [{ rel: "icon", url: "/favicon.png", type: "image/png" }],
+	icons: {
+		icon: [
+			{ url: "/favicon.ico", sizes: "any" },
+			{ url: "/favicon.png", type: "image/png" },
+		],
+	},
 };
 
 const inter = Inter({
