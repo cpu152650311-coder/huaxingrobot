@@ -96,7 +96,15 @@ export default function CleinbotCC201Page() {
               </div>
             </div>
             <div className="flex justify-center hero-image-blend">
-              <Image src="/images/products/cleinbot-cc201/hero-robot.png" alt="CLEINBOT CC201" width={520} height={520} priority className="w-full max-w-md" />
+              <Image
+                src="/images/products/cleinbot-cc201/hero-robot.png"
+                alt="CLEINBOT CC201"
+                width={520}
+                height={520}
+                priority
+                sizes="(max-width: 768px) 100vw, 448px"
+                className="w-full max-w-md"
+              />
             </div>
           </div>
         </div>
@@ -145,7 +153,14 @@ export default function CleinbotCC201Page() {
           </div>
           <div className="max-w-5xl mx-auto grid md:grid-cols-2 gap-14 items-start">
             {/* /images/products/cleinbot-cc201/tech-drawing.png */}
-            <Image src="/images/products/cleinbot-cc201/tech-drawing.png" alt="CLEINBOT CC201 Technical Drawing" width={560} height={700} className="w-full rounded-2xl shadow-lg" />
+            <Image
+              src="/images/products/cleinbot-cc201/tech-drawing.png"
+              alt="CLEINBOT CC201 Technical Drawing"
+              width={560}
+              height={700}
+              sizes="(max-width: 768px) 100vw, 50vw"
+              className="w-full rounded-2xl shadow-lg"
+            />
             <div>
               {specs.map(([label, value, highlight]) => (
                 <div key={String(label)} className="flex border-b border-line py-3.5 px-3 rounded-lg hover:bg-teal-light/30 transition-colors">
@@ -169,7 +184,13 @@ export default function CleinbotCC201Page() {
             {scenarios.map((sc) => (
               <div key={sc.title} className="bg-white rounded-2xl overflow-hidden border border-line card-hover flex flex-col">
                 <div className="aspect-[3/2] relative">
-                  <Image src={sc.img} alt={sc.title} fill className="object-cover" />
+                  <Image
+                    src={sc.img}
+                    alt={sc.title}
+                    fill
+                    sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 25vw"
+                    className="object-cover"
+                  />
                 </div>
                 <div className="p-5 flex-1 flex flex-col">
                   <h3 className="font-bold text-ink mb-3 text-base">{sc.title}</h3>
@@ -208,7 +229,7 @@ export default function CleinbotCC201Page() {
             {related.map((r) => (
               <div key={r.name} className="bg-white rounded-2xl overflow-hidden border border-line card-hover flex flex-col">
                 <div className="aspect-square bg-white flex items-center justify-center p-4">
-                  <Image src={r.img} alt={r.name} width={200} height={200} className="w-full h-full object-contain" />
+                  <Image src={r.img} alt={r.name} width={200} height={200} sizes="200px" className="w-full h-full object-contain" />
                 </div>
                 <div className="p-5 flex-1 flex flex-col">
                   <h3 className="text-lg font-bold text-ink">{r.name}</h3>

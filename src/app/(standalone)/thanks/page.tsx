@@ -25,6 +25,7 @@ export default function ThanksPage() {
           alt="AOMAN FUTURE"
           width={180}
           height={48}
+          sizes="180px"
           className="h-11 w-auto object-contain mx-auto"
         />
       </div>

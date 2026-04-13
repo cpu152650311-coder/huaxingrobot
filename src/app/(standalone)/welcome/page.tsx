@@ -178,6 +178,7 @@ export default function WelcomePage() {
             width={200}
             height={52}
             priority
+            sizes="200px"
             className="h-[44px] w-auto object-contain"
           />
           <button
@@ -258,6 +259,7 @@ export default function WelcomePage() {
                     width={560}
                     height={560}
                     priority
+                    sizes="(max-width: 1024px) 90vw, 560px"
                     className="w-full h-full object-contain animate-fadeIn"
                   />
                 </div>
@@ -294,6 +296,7 @@ export default function WelcomePage() {
                   alt={p.name}
                   width={100}
                   height={36}
+                  sizes="(max-width: 640px) 25vw, (max-width: 1024px) 16vw, 100px"
                   className="h-8 w-auto opacity-50 hover:opacity-80 transition-opacity grayscale hover:grayscale-0"
                 />
               </div>
@@ -324,6 +327,7 @@ export default function WelcomePage() {
                     alt={p.imgAlt}
                     width={280}
                     height={280}
+                    sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 25vw"
                     className="w-full h-full object-contain"
                   />
                 </div>
@@ -377,6 +381,7 @@ export default function WelcomePage() {
                     src={s.img}
                     alt={s.title}
                     fill
+                    sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
                     className="object-cover"
                   />
                 </div>
@@ -485,6 +490,7 @@ export default function WelcomePage() {
                     src={n.img}
                     alt={n.title}
                     fill
+                    sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
                     className="object-cover"
                   />
                 </div>
@@ -536,6 +542,7 @@ export default function WelcomePage() {
             alt="AOMAN FUTURE"
             width={160}
             height={44}
+            sizes="160px"
             className="h-10 w-auto object-contain opacity-80"
           />
           <p className="text-sm text-gray-500">

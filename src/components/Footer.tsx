@@ -19,6 +19,7 @@ export default function Footer() {
               alt="AOMAN FUTURE"
               width={240}
               height={70}
+              sizes="240px"
               className="mb-4 h-14 w-auto object-contain"
             />
             <p className="text-sm mb-4 leading-relaxed">

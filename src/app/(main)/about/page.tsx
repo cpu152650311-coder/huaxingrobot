@@ -375,6 +375,7 @@ export default function AboutPage() {
                   alt={p.name}
                   width={120}
                   height={45}
+                  sizes="(max-width: 768px) 50vw, (max-width: 1024px) 33vw, 120px"
                   className="h-10 w-auto opacity-60 hover:opacity-100 grayscale hover:grayscale-0 transition-all"
                 />
               </div>

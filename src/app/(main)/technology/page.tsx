@@ -130,6 +130,7 @@ export default function TechnologyPage() {
                 width={600}
                 height={700}
                 priority
+                sizes="(max-width: 1024px) 100vw, 50vw"
                 className="rounded-2xl shadow-2xl animate-pulse-glow w-full"
               />
               <div className="absolute -top-5 -right-5 bg-white text-brand px-5 py-3 rounded-full shadow-xl font-bold text-sm flex items-center gap-2">
@@ -222,6 +223,7 @@ export default function TechnologyPage() {
                 alt="AOMAN R&D Lab"
                 width={640}
                 height={720}
+                sizes="(max-width: 1024px) 100vw, 50vw"
                 className="rounded-2xl shadow-2xl w-full"
               />
               <div className="absolute top-8 -left-6 bg-white p-5 rounded-xl shadow-xl border-2 border-teal">
@@ -254,6 +256,7 @@ export default function TechnologyPage() {
                   alt={p}
                   width={120}
                   height={40}
+                  sizes="120px"
                   className="h-9 w-auto opacity-80"
                 />
               </div>

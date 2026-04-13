@@ -293,6 +293,7 @@ export default function HomePage() {
                   alt={p.name}
                   width={100}
                   height={36}
+                  sizes="(max-width: 640px) 25vw, (max-width: 1024px) 16vw, 100px"
                   className="h-8 w-auto opacity-50 hover:opacity-80 transition-opacity grayscale hover:grayscale-0"
                 />
               </div>
@@ -323,6 +324,7 @@ export default function HomePage() {
                     alt={p.imgAlt}
                     width={280}
                     height={280}
+                    sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 25vw"
                     className="w-full h-full object-contain"
                   />
                 </div>
@@ -384,6 +386,7 @@ export default function HomePage() {
                     src={s.img}
                     alt={s.title}
                     fill
+                    sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
                     className="object-cover group-hover:scale-105 transition-transform duration-500"
                   />
                 </div>
@@ -496,6 +499,7 @@ export default function HomePage() {
                     src={n.img}
                     alt={n.title}
                     fill
+                    sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
                     className="object-cover"
                   />
                 </div>

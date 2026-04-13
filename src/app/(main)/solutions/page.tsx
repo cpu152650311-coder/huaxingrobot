@@ -168,7 +168,13 @@ export default function SolutionsPage() {
             {solutions.map((s) => (
               <div key={s.title} className="bg-white rounded-2xl overflow-hidden border border-line card-hover flex flex-col">
                 <div className="aspect-[3/2] relative">
-                  <Image src={s.img} alt={s.title} fill className="object-cover" />
+                  <Image
+                    src={s.img}
+                    alt={s.title}
+                    fill
+                    sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                    className="object-cover"
+                  />
                   <div className={`absolute top-4 right-4 ${s.tagColor} text-xs font-bold px-3 py-1.5 rounded-full`}>{s.tag}</div>
                 </div>
                 <div className="p-7 flex flex-col flex-1">
@@ -226,7 +232,13 @@ export default function SolutionsPage() {
             {cases.map((c) => (
               <div key={c.name} className="bg-white rounded-2xl overflow-hidden border border-line card-hover flex flex-col">
                 <div className="aspect-[2/1] relative overflow-hidden">
-                  <Image src={c.img} alt={c.name} fill className="object-cover object-center" />
+                  <Image
+                    src={c.img}
+                    alt={c.name}
+                    fill
+                    sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                    className="object-cover object-center"
+                  />
                   <div className={`absolute inset-0 bg-gradient-to-b ${c.color} opacity-60`} />
                 </div>
                 <div className="p-7">

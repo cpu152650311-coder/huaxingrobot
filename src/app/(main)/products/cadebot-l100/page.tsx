@@ -103,6 +103,7 @@ export default function CadebotL100Page() {
                 width={520}
                 height={620}
                 priority
+                sizes="(max-width: 768px) 100vw, 448px"
                 className="w-full max-w-md"
               />
             </div>
@@ -159,6 +160,7 @@ export default function CadebotL100Page() {
               alt="CADEBOT L100 Technical Drawing"
               width={560}
               height={700}
+              sizes="(max-width: 768px) 100vw, 50vw"
               className="w-full rounded-2xl shadow-lg"
             />
             <div>
@@ -189,6 +191,7 @@ export default function CadebotL100Page() {
                     src={sc.img}
                     alt={sc.title}
                     fill
+                    sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 25vw"
                     className="object-cover"
                   />
                 </div>
@@ -270,7 +273,7 @@ export default function CadebotL100Page() {
             {related.map((r) => (
               <div key={r.name} className="bg-white rounded-2xl overflow-hidden border border-line card-hover flex flex-col">
                 <div className="aspect-square bg-white flex items-center justify-center p-4">
-                  <Image src={r.img} alt={r.name} width={200} height={200} className="w-full h-full object-contain" />
+                  <Image src={r.img} alt={r.name} width={200} height={200} sizes="200px" className="w-full h-full object-contain" />
                 </div>
                 <div className="p-5 flex-1 flex flex-col">
                   <h3 className="text-lg font-bold text-ink">{r.name}</h3>

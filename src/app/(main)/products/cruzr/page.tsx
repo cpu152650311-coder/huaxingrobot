@@ -103,6 +103,7 @@ export default function CruzrPage() {
                 width={480}
                 height={680}
                 priority
+                sizes="(max-width: 768px) 100vw, 384px"
                 className="w-full max-w-sm"
               />
             </div>
@@ -153,7 +154,14 @@ export default function CruzrPage() {
           </div>
           <div className="max-w-5xl mx-auto grid md:grid-cols-2 gap-14 items-start">
             {/* /images/products/cruzr/tech-drawing.png */}
-            <Image src="/images/products/cruzr/tech-drawing.png" alt="CRUZR Technical Drawing" width={560} height={700} className="w-full rounded-2xl shadow-lg" />
+            <Image
+              src="/images/products/cruzr/tech-drawing.png"
+              alt="CRUZR Technical Drawing"
+              width={560}
+              height={700}
+              sizes="(max-width: 768px) 100vw, 50vw"
+              className="w-full rounded-2xl shadow-lg"
+            />
             <div>
               {specs.map(([label, value, highlight]) => (
                 <div key={String(label)} className="flex border-b border-line py-3.5 px-3 rounded-lg hover:bg-brand-light/30 transition-colors">
@@ -178,7 +186,13 @@ export default function CruzrPage() {
             {scenarios.map((sc) => (
               <div key={sc.title} className="bg-white rounded-2xl overflow-hidden border border-line card-hover flex flex-col">
                 <div className="aspect-[3/2] relative">
-                  <Image src={sc.img} alt={sc.title} fill className="object-cover" />
+                  <Image
+                    src={sc.img}
+                    alt={sc.title}
+                    fill
+                    sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 25vw"
+                    className="object-cover"
+                  />
                 </div>
                 <div className="p-5 flex-1 flex flex-col">
                   <h3 className="font-bold text-ink mb-3 text-base">{sc.title}</h3>
@@ -249,7 +263,7 @@ export default function CruzrPage() {
             {related.map((r) => (
               <div key={r.name} className="bg-white rounded-2xl overflow-hidden border border-line card-hover flex flex-col">
                 <div className="aspect-square bg-white flex items-center justify-center p-4">
-                  <Image src={r.img} alt={r.name} width={200} height={200} className="w-full h-full object-contain" />
+                  <Image src={r.img} alt={r.name} width={200} height={200} sizes="200px" className="w-full h-full object-contain" />
                 </div>
                 <div className="p-5 flex-1 flex flex-col">
                   <h3 className="text-lg font-bold text-ink">{r.name}</h3>
