@@ -59,6 +59,26 @@ const products = [
     img: '/images/home/cruzr.png',
     imgAlt: 'CRUZR Service Robot',
   },
+  {
+    name: 'CLEINBOT C2 Pro',
+    badge: 'Cleaning',
+    badgeColor: 'bg-teal-light text-teal-dark',
+    desc: 'Fully automated commercial cleaning robot with auto water exchange and 24/7 operation.',
+    features: ['500–800 m²/h efficiency', 'Auto water refill & drainage', 'UAV-level smart navigation'],
+    href: '/products/cleinbot-c2pro',
+    img: '/images/home/cleinbot-c2pro.png',
+    imgAlt: 'CLEINBOT C2 Pro Commercial Cleaning Robot',
+  },
+  {
+    name: 'AOMAN DOUBLE',
+    badge: 'Delivery',
+    badgeColor: 'bg-brand-light text-brand',
+    desc: '70L dual-cabin hotel transport robot with fingerprint ID and voice interaction.',
+    features: ['70L dual-cabin capacity', 'Fingerprint unlock', 'HDOS 2.0 integration'],
+    href: '/products/aoman-double',
+    img: '/images/home/aoman-double.png',
+    imgAlt: 'AOMAN DOUBLE Hotel Transport Robot',
+  },
 ]
 
 const solutions = [

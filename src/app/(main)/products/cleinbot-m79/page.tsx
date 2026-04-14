@@ -34,8 +34,8 @@ const faqs = [
 ]
 
 const related = [
+  { name: 'CLEINBOT C2 Pro', img: '/images/home/cleinbot-c2pro.png', cat: 'Commercial Cleaning Robot', desc: 'Fully automated cleaning with auto water exchange. 500–800 m²/h.', href: '/products/cleinbot-c2pro' },
   { name: 'CADEBOT L100', img: '/images/home/cadebot-l100.png', cat: 'Smart Delivery Robot', desc: 'Autonomous delivery for restaurants, hotels, and hospitals.', href: '/products/cadebot-l100' },
-  { name: 'CLEINBOT CC201', img: '/images/home/cleinbot-cc201.png', cat: 'Sweeping Robot', desc: 'Outdoor & indoor sweeping for large commercial areas.', href: '/products/cleinbot-cc201' },
   { name: 'CRUZR', img: '/images/home/cruzr.png', cat: 'Humanoid Service Robot', desc: 'AI-powered reception and customer guidance robot.', href: '/products/cruzr' },
 ]
 

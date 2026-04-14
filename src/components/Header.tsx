@@ -118,6 +118,33 @@ export default function Header() {
                     <span className="dropdown-item-sub">Restaurant Delivery Robot</span>
                   </div>
                 </Link>
+                <Link href="/products/aoman-double" className="dropdown-item">
+                  <div className="dropdown-item-icon">
+                    <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={1.8} width={18} height={18}>
+                      <rect x="4" y="4" width="16" height="10" rx="2"/>
+                      <path strokeLinecap="round" strokeLinejoin="round" d="M4 10h16"/>
+                      <path strokeLinecap="round" strokeLinejoin="round" d="M9 17v3M15 17v3M7 20h10"/>
+                    </svg>
+                  </div>
+                  <div className="dropdown-item-text">
+                    <span className="dropdown-item-title">AOMAN DOUBLE</span>
+                    <span className="dropdown-item-sub">Hotel Transport Robot</span>
+                  </div>
+                </Link>
+                <div className="dropdown-divider" />
+                <Link href="/products/cleinbot-c2pro" className="dropdown-item">
+                  <div className="dropdown-item-icon">
+                    <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={1.8} width={18} height={18}>
+                      <circle cx="12" cy="12" r="8"/>
+                      <path strokeLinecap="round" strokeLinejoin="round" d="M8 12a4 4 0 008 0"/>
+                      <path strokeLinecap="round" strokeLinejoin="round" d="M12 8v2M12 14v2"/>
+                    </svg>
+                  </div>
+                  <div className="dropdown-item-text">
+                    <span className="dropdown-item-title">CLEINBOT C2 Pro</span>
+                    <span className="dropdown-item-sub">Commercial Cleaning Robot</span>
+                  </div>
+                </Link>
               </div>
             </li>
 
@@ -170,6 +197,8 @@ export default function Header() {
                       <Link href="/products/cleinbot-m79" className="block py-2 px-3 text-sm text-gray-500 rounded-md hover:text-[#0066FF] hover:bg-[#0066FF]/5 transition-colors">CLEINBOT M79 – Industrial Scrubbing Robot</Link>
                       <Link href="/products/cleinbot-cc201" className="block py-2 px-3 text-sm text-gray-500 rounded-md hover:text-[#0066FF] hover:bg-[#0066FF]/5 transition-colors">CLEINBOT CC201 – Compact Cleaning Machine</Link>
                       <Link href="/products/cadebot-l100" className="block py-2 px-3 text-sm text-gray-500 rounded-md hover:text-[#0066FF] hover:bg-[#0066FF]/5 transition-colors">CADEBOT L100 – Restaurant Delivery Robot</Link>
+                      <Link href="/products/aoman-double" className="block py-2 px-3 text-sm text-gray-500 rounded-md hover:text-[#0066FF] hover:bg-[#0066FF]/5 transition-colors">AOMAN DOUBLE – Hotel Transport Robot</Link>
+                      <Link href="/products/cleinbot-c2pro" className="block py-2 px-3 text-sm text-gray-500 rounded-md hover:text-[#0066FF] hover:bg-[#0066FF]/5 transition-colors">CLEINBOT C2 Pro – Commercial Cleaning Robot</Link>
                     </div>
                   )}
                 </li>

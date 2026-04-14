@@ -34,9 +34,9 @@ const faqs = [
 ]
 
 const related = [
-  { name: 'CADEBOT L100', img: '/images/home/cadebot-l100.png', cat: 'Smart Delivery Robot', desc: 'Autonomous delivery for restaurants, hotels, and hospitals.', href: '/products/cadebot-l100' },
+  { name: 'CLEINBOT C2 Pro', img: '/images/home/cleinbot-c2pro.png', cat: 'Commercial Cleaning Robot', desc: 'Fully automated cleaning with auto water exchange. 500–800 m²/h.', href: '/products/cleinbot-c2pro' },
   { name: 'CLEINBOT M79', img: '/images/home/cleinbot-m79.png', cat: 'Floor Cleaning Robot', desc: 'Indoor floor scrubbing for large commercial spaces.', href: '/products/cleinbot-m79' },
-  { name: 'CRUZR', img: '/images/home/cruzr.png', cat: 'Humanoid Service Robot', desc: 'AI reception and customer guidance for retail & events.', href: '/products/cruzr' },
+  { name: 'CADEBOT L100', img: '/images/home/cadebot-l100.png', cat: 'Smart Delivery Robot', desc: 'Autonomous delivery for restaurants, hotels, and hospitals.', href: '/products/cadebot-l100' },
 ]
 
 export const metadata: Metadata = {

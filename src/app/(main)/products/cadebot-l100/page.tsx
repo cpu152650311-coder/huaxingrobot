@@ -35,8 +35,8 @@ const faqs = [
 ]
 
 const related = [
-  { name: 'CLEINBOT M79', img: '/images/home/cleinbot-m79.png', cat: 'Smart Cleaning Robot', desc: 'Autonomous floor scrubbing. 2,000 m²/h efficiency.', href: '/products/cleinbot-m79' },
-  { name: 'CLEINBOT CC201', img: '/images/home/cleinbot-cc201.png', cat: 'Sweeping Robot', desc: 'Deep cleaning for hotels & offices. IoT-enabled.', href: '/products/cleinbot-cc201' },
+  { name: 'AOMAN DOUBLE', img: '/images/home/aoman-double.png', cat: 'Hotel Transport Robot', desc: '70L dual-cabin delivery. Fingerprint unlock & voice interaction.', href: '/products/aoman-double' },
+  { name: 'CLEINBOT C2 Pro', img: '/images/home/cleinbot-c2pro.png', cat: 'Commercial Cleaning Robot', desc: 'Fully automated cleaning with auto water exchange. 24/7 operation.', href: '/products/cleinbot-c2pro' },
   { name: 'CRUZR', img: '/images/home/cruzr.png', cat: 'Humanoid Service Robot', desc: 'Interactive reception & guidance. Perfect for retail.', href: '/products/cruzr' },
 ]
 
