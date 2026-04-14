@@ -26,7 +26,7 @@ const products = [
     badgeColor: 'bg-brand-light text-brand',
     desc: 'Autonomous delivery robot for hotels, hospitals, and office buildings.',
     features: ['40 kg load capacity', 'Multi-elevator navigation', 'Smart obstacle avoidance'],
-    img: '/images/home/cadebot-l100.png',
+    img: '/images/home/cadebot-l100.webp',
     imgAlt: 'CADEBOT L100 Delivery Robot',
   },
   {
@@ -35,7 +35,7 @@ const products = [
     badgeColor: 'bg-teal-light text-teal',
     desc: 'Intelligent floor-cleaning robot for large commercial spaces.',
     features: ['2,000 m²/h efficiency', 'Auto-return docking', 'Multi-surface support'],
-    img: '/images/home/cleinbot-m79.png',
+    img: '/images/home/cleinbot-m79.webp',
     imgAlt: 'CLEINBOT M79 Cleaning Robot',
   },
   {
@@ -44,7 +44,7 @@ const products = [
     badgeColor: 'bg-teal-light text-teal',
     desc: 'Commercial sweeping robot with deep-clean capabilities for outdoor & indoor areas.',
     features: ['AI path planning', 'Auto dust-bin emptying', 'Weather-resistant'],
-    img: '/images/home/cleinbot-cc201.png',
+    img: '/images/home/cleinbot-cc201.webp',
     imgAlt: 'CLEINBOT CC201 Sweeping Robot',
   },
   {
@@ -53,7 +53,7 @@ const products = [
     badgeColor: 'bg-brand-light text-brand',
     desc: 'Humanoid customer-service robot with voice interaction and facial recognition.',
     features: ['Natural voice interaction', 'Facial recognition', 'App ecosystem'],
-    img: '/images/home/cruzr.png',
+    img: '/images/home/cruzr.webp',
     imgAlt: 'CRUZR Service Robot',
   },
   {
@@ -272,7 +272,7 @@ export default function WelcomePage() {
               >
                 <div className="p-6">
                   <Image
-                    src="/images/home/hero-robot.png"
+                    src="/images/home/hero-robot.webp"
                     alt="AOMAN AI Service Robot"
                     width={560}
                     height={560}

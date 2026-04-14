@@ -74,9 +74,9 @@ const faqs = [
 ]
 
 const related = [
-  { name: 'CLEINBOT M79', img: '/images/home/cleinbot-m79.png', cat: 'Industrial Scrubbing Robot', desc: 'Heavy-duty floor scrubbing for airports and large malls. 2,000 m²/h efficiency.', href: '/products/cleinbot-m79' },
+  { name: 'CLEINBOT M79', img: '/images/home/cleinbot-m79.webp', cat: 'Industrial Scrubbing Robot', desc: 'Heavy-duty floor scrubbing for airports and large malls. 2,000 m²/h efficiency.', href: '/products/cleinbot-m79' },
   { name: 'AOMAN DOUBLE', img: '/images/home/aoman-double.webp', cat: 'Hotel Transport Robot', desc: '70L dual-cabin delivery robot. Fingerprint unlock, voice interaction.', href: '/products/aoman-double' },
-  { name: 'CADEBOT L100', img: '/images/home/cadebot-l100.png', cat: 'Smart Delivery Robot', desc: 'Autonomous food & goods delivery for restaurants, hotels and hospitals.', href: '/products/cadebot-l100' },
+  { name: 'CADEBOT L100', img: '/images/home/cadebot-l100.webp', cat: 'Smart Delivery Robot', desc: 'Autonomous food & goods delivery for restaurants, hotels and hospitals.', href: '/products/cadebot-l100' },
 ]
 
 export const metadata: Metadata = {

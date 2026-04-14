@@ -37,7 +37,7 @@ const faqs = [
 const related = [
   { name: 'AOMAN DOUBLE', img: '/images/home/aoman-double.webp', cat: 'Hotel Transport Robot', desc: '70L dual-cabin delivery. Fingerprint unlock & voice interaction.', href: '/products/aoman-double' },
   { name: 'CLEINBOT C2 Pro', img: '/images/home/cleinbot-c2pro.webp', cat: 'Commercial Cleaning Robot', desc: 'Fully automated cleaning with auto water exchange. 24/7 operation.', href: '/products/cleinbot-c2pro' },
-  { name: 'CRUZR', img: '/images/home/cruzr.png', cat: 'Humanoid Service Robot', desc: 'Interactive reception & guidance. Perfect for retail.', href: '/products/cruzr' },
+  { name: 'CRUZR', img: '/images/home/cruzr.webp', cat: 'Humanoid Service Robot', desc: 'Interactive reception & guidance. Perfect for retail.', href: '/products/cruzr' },
 ]
 
 export const metadata: Metadata = {
@@ -98,7 +98,7 @@ export default function CadebotL100Page() {
             </div>
             <div className="flex justify-center hero-image-blend">
               <Image
-                src="/images/products/cadebot-l100/hero-robot.png"
+                src="/images/products/cadebot-l100/hero-robot.webp"
                 alt="CADEBOT L100 Smart Delivery Robot"
                 width={520}
                 height={620}
@@ -154,9 +154,9 @@ export default function CadebotL100Page() {
             <p className="text-xl text-ink-muted">Enterprise-grade hardware built for 24/7 operations.</p>
           </div>
           <div className="max-w-5xl mx-auto grid md:grid-cols-2 gap-14 items-start">
-            {/* /images/products/cadebot-l100/tech-drawing.png */}
+            {/* /images/products/cadebot-l100/tech-drawing.webp */}
             <Image
-              src="/images/products/cadebot-l100/tech-drawing.png"
+              src="/images/products/cadebot-l100/tech-drawing.webp"
               alt="CADEBOT L100 Technical Drawing"
               width={560}
               height={700}

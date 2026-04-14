@@ -35,8 +35,8 @@ const faqs = [
 
 const related = [
   { name: 'CLEINBOT C2 Pro', img: '/images/home/cleinbot-c2pro.webp', cat: 'Commercial Cleaning Robot', desc: 'Fully automated cleaning with auto water exchange. 500–800 m²/h.', href: '/products/cleinbot-c2pro' },
-  { name: 'CLEINBOT M79', img: '/images/home/cleinbot-m79.png', cat: 'Floor Cleaning Robot', desc: 'Indoor floor scrubbing for large commercial spaces.', href: '/products/cleinbot-m79' },
-  { name: 'CADEBOT L100', img: '/images/home/cadebot-l100.png', cat: 'Smart Delivery Robot', desc: 'Autonomous delivery for restaurants, hotels, and hospitals.', href: '/products/cadebot-l100' },
+  { name: 'CLEINBOT M79', img: '/images/home/cleinbot-m79.webp', cat: 'Floor Cleaning Robot', desc: 'Indoor floor scrubbing for large commercial spaces.', href: '/products/cleinbot-m79' },
+  { name: 'CADEBOT L100', img: '/images/home/cadebot-l100.webp', cat: 'Smart Delivery Robot', desc: 'Autonomous delivery for restaurants, hotels, and hospitals.', href: '/products/cadebot-l100' },
 ]
 
 export const metadata: Metadata = {
@@ -97,7 +97,7 @@ export default function CleinbotCC201Page() {
             </div>
             <div className="flex justify-center hero-image-blend">
               <Image
-                src="/images/products/cleinbot-cc201/hero-robot.png"
+                src="/images/products/cleinbot-cc201/hero-robot.webp"
                 alt="CLEINBOT CC201"
                 width={520}
                 height={520}
@@ -152,9 +152,9 @@ export default function CleinbotCC201Page() {
             <h2 className="text-4xl font-black text-ink">Technical Specifications</h2>
           </div>
           <div className="max-w-5xl mx-auto grid md:grid-cols-2 gap-14 items-start">
-            {/* /images/products/cleinbot-cc201/tech-drawing.png */}
+            {/* /images/products/cleinbot-cc201/tech-drawing.webp */}
             <Image
-              src="/images/products/cleinbot-cc201/tech-drawing.png"
+              src="/images/products/cleinbot-cc201/tech-drawing.webp"
               alt="CLEINBOT CC201 Technical Drawing"
               width={560}
               height={700}

@@ -369,7 +369,7 @@ export default function AboutPage() {
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-5 max-w-5xl mx-auto">
             {aboutPartners.map((p) => (
               <div key={p.name} className="flex items-center justify-center p-5 bg-surface-subtle rounded-xl border border-line hover:border-brand/30 hover:bg-brand-light/20 transition-all">
-                {/* /images/about/partner-{name}.png */}
+                {/* /images/about/partner-{name}.webp */}
                 <Image
                   src={p.src}
                   alt={p.name}

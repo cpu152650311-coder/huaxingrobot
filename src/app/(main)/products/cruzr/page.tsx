@@ -36,7 +36,7 @@ const faqs = [
 
 const related = [
   { name: 'AOMAN DOUBLE', img: '/images/home/aoman-double.webp', cat: 'Hotel Transport Robot', desc: '70L dual-cabin hotel delivery. Fingerprint unlock & voice interaction.', href: '/products/aoman-double' },
-  { name: 'CADEBOT L100', img: '/images/home/cadebot-l100.png', cat: 'Smart Delivery Robot', desc: 'Autonomous food & goods delivery for restaurants and hotels.', href: '/products/cadebot-l100' },
+  { name: 'CADEBOT L100', img: '/images/home/cadebot-l100.webp', cat: 'Smart Delivery Robot', desc: 'Autonomous food & goods delivery for restaurants and hotels.', href: '/products/cadebot-l100' },
   { name: 'CLEINBOT C2 Pro', img: '/images/home/cleinbot-c2pro.webp', cat: 'Commercial Cleaning Robot', desc: 'Fully automated cleaning with auto water exchange. 500–800 m²/h.', href: '/products/cleinbot-c2pro' },
 ]
 
@@ -98,7 +98,7 @@ export default function CruzrPage() {
             </div>
             <div className="flex justify-center hero-image-blend">
               <Image
-                src="/images/products/cruzr/hero-robot.png"
+                src="/images/products/cruzr/hero-robot.webp"
                 alt="CRUZR Humanoid Service Robot"
                 width={480}
                 height={680}
@@ -153,9 +153,9 @@ export default function CruzrPage() {
             <h2 className="text-4xl font-black text-ink">Technical Specifications</h2>
           </div>
           <div className="max-w-5xl mx-auto grid md:grid-cols-2 gap-14 items-start">
-            {/* /images/products/cruzr/tech-drawing.png */}
+            {/* /images/products/cruzr/tech-drawing.webp */}
             <Image
-              src="/images/products/cruzr/tech-drawing.png"
+              src="/images/products/cruzr/tech-drawing.webp"
               alt="CRUZR Technical Drawing"
               width={560}
               height={700}

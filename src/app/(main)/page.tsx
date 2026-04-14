@@ -26,7 +26,7 @@ const products = [
     desc: 'Autonomous delivery robot for hotels, hospitals, and office buildings.',
     features: ['40 kg load capacity', 'Multi-elevator navigation', 'Smart obstacle avoidance'],
     href: '/products/cadebot-l100',
-    img: '/images/home/cadebot-l100.png',
+    img: '/images/home/cadebot-l100.webp',
     imgAlt: 'CADEBOT L100 Delivery Robot',
   },
   {
@@ -36,7 +36,7 @@ const products = [
     desc: 'Intelligent floor-cleaning robot for large commercial spaces.',
     features: ['2,000 m²/h efficiency', 'Auto-return docking', 'Multi-surface support'],
     href: '/products/cleinbot-m79',
-    img: '/images/home/cleinbot-m79.png',
+    img: '/images/home/cleinbot-m79.webp',
     imgAlt: 'CLEINBOT M79 Cleaning Robot',
   },
   {
@@ -46,7 +46,7 @@ const products = [
     desc: 'Commercial sweeping robot with deep-clean capabilities for outdoor & indoor areas.',
     features: ['AI path planning', 'Auto dust-bin emptying', 'Weather-resistant'],
     href: '/products/cleinbot-cc201',
-    img: '/images/home/cleinbot-cc201.png',
+    img: '/images/home/cleinbot-cc201.webp',
     imgAlt: 'CLEINBOT CC201 Sweeping Robot',
   },
   {
@@ -56,7 +56,7 @@ const products = [
     desc: 'Humanoid customer-service robot with voice interaction and facial recognition.',
     features: ['Natural voice interaction', 'Facial recognition', 'App ecosystem'],
     href: '/products/cruzr',
-    img: '/images/home/cruzr.png',
+    img: '/images/home/cruzr.webp',
     imgAlt: 'CRUZR Service Robot',
   },
   {
@@ -268,7 +268,7 @@ export default function HomePage() {
                 style={{ background: 'linear-gradient(135deg, #EFF6FF 0%, #F0FDFA 100%)' }}>
                 <div className="p-6">
                   <Image
-                    src="/images/home/hero-robot.png"
+                    src="/images/home/hero-robot.webp"
                     alt="AOMAN AI Service Robot"
                     width={560}
                     height={560}
@@ -307,7 +307,7 @@ export default function HomePage() {
           <div className="grid grid-cols-4 md:grid-cols-6 lg:grid-cols-12 gap-4 items-center">
             {partners.map((p) => (
               <div key={p.name} className="flex items-center justify-center">
-                {/* /images/home/partner-{name}.png */}
+                {/* /images/home/partner-{name}.webp */}
                 <Image
                   src={p.src}
                   alt={p.name}

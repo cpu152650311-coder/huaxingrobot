@@ -250,7 +250,7 @@ export default function TechnologyPage() {
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-6 max-w-5xl mx-auto mb-14">
             {techPartners.map((p) => (
               <div key={p} className="bg-white/10 backdrop-blur-sm p-5 rounded-xl flex items-center justify-center h-20 hover:bg-white/20 transition">
-                {/* /images/technology/partner-{name}.png */}
+                {/* /images/technology/partner-{name}.webp */}
                 <Image
                   src={`https://placehold.co/140x48/FFFFFF/1A1A1A?text=${encodeURIComponent(p)}`}
                   alt={p}
