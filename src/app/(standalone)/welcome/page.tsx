@@ -62,7 +62,7 @@ const products = [
     badgeColor: 'bg-teal-light text-teal',
     desc: 'Fully automated commercial cleaning robot with auto water exchange and 24/7 operation.',
     features: ['500–800 m²/h efficiency', 'Auto water refill & drainage', 'UAV-level smart navigation'],
-    img: '/images/home/cleinbot-c2pro.png',
+    img: '/images/home/cleinbot-c2pro.webp',
     imgAlt: 'CLEINBOT C2 Pro Commercial Cleaning Robot',
   },
   {
@@ -71,7 +71,7 @@ const products = [
     badgeColor: 'bg-brand-light text-brand',
     desc: '70L dual-cabin hotel transport robot with fingerprint ID and voice interaction.',
     features: ['70L dual-cabin capacity', 'Fingerprint unlock', 'HDOS 2.0 integration'],
-    img: '/images/home/aoman-double.png',
+    img: '/images/home/aoman-double.webp',
     imgAlt: 'AOMAN DOUBLE Hotel Transport Robot',
   },
 ]

@@ -35,9 +35,9 @@ const faqs = [
 ]
 
 const related = [
-  { name: 'AOMAN DOUBLE', img: '/images/home/aoman-double.png', cat: 'Hotel Transport Robot', desc: '70L dual-cabin hotel delivery. Fingerprint unlock & voice interaction.', href: '/products/aoman-double' },
+  { name: 'AOMAN DOUBLE', img: '/images/home/aoman-double.webp', cat: 'Hotel Transport Robot', desc: '70L dual-cabin hotel delivery. Fingerprint unlock & voice interaction.', href: '/products/aoman-double' },
   { name: 'CADEBOT L100', img: '/images/home/cadebot-l100.png', cat: 'Smart Delivery Robot', desc: 'Autonomous food & goods delivery for restaurants and hotels.', href: '/products/cadebot-l100' },
-  { name: 'CLEINBOT C2 Pro', img: '/images/home/cleinbot-c2pro.png', cat: 'Commercial Cleaning Robot', desc: 'Fully automated cleaning with auto water exchange. 500–800 m²/h.', href: '/products/cleinbot-c2pro' },
+  { name: 'CLEINBOT C2 Pro', img: '/images/home/cleinbot-c2pro.webp', cat: 'Commercial Cleaning Robot', desc: 'Fully automated cleaning with auto water exchange. 500–800 m²/h.', href: '/products/cleinbot-c2pro' },
 ]
 
 export const metadata: Metadata = {

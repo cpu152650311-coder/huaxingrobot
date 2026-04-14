@@ -44,22 +44,22 @@ const specs = [
 const scenarios = [
   {
     title: 'Hotel Room Service',
-    img: '/images/products/aoman-double/scene-01.png',
+    img: '/images/products/aoman-double/scene-01.webp',
     points: ['24/7 in-room amenity & food delivery', 'Fingerprint for secure guest access', 'Voice interaction enhances guest experience'],
   },
   {
     title: 'Restaurant & F&B Delivery',
-    img: '/images/products/aoman-double/scene-02.png',
+    img: '/images/products/aoman-double/scene-02.webp',
     points: ['Takeout delivery between floors', 'Multi-location standby scheduling', 'Reduce staff walking distance significantly'],
   },
   {
     title: 'Hospital & Healthcare',
-    img: '/images/products/aoman-double/scene-03.png',
+    img: '/images/products/aoman-double/scene-03.webp',
     points: ['Contactless medicine & supply delivery', 'UV disinfection option for hygiene', 'Traceable delivery records for compliance'],
   },
   {
     title: 'Corporate Office Buildings',
-    img: '/images/products/aoman-double/scene-04.png',
+    img: '/images/products/aoman-double/scene-04.webp',
     points: ['Inter-department document & parcel delivery', 'AI security patrol mode available', 'Seamless multi-floor elevator navigation'],
   },
 ]
@@ -74,7 +74,7 @@ const faqs = [
 
 const related = [
   { name: 'CADEBOT L100', img: '/images/home/cadebot-l100.png', cat: 'Smart Delivery Robot', desc: 'Autonomous food & goods delivery for restaurants, hotels and hospitals.', href: '/products/cadebot-l100' },
-  { name: 'CLEINBOT C2 Pro', img: '/images/home/cleinbot-c2pro.png', cat: 'Commercial Cleaning Robot', desc: 'Fully automated cleaning robot with auto water exchange. 500–800 m²/h.', href: '/products/cleinbot-c2pro' },
+  { name: 'CLEINBOT C2 Pro', img: '/images/home/cleinbot-c2pro.webp', cat: 'Commercial Cleaning Robot', desc: 'Fully automated cleaning robot with auto water exchange. 500–800 m²/h.', href: '/products/cleinbot-c2pro' },
   { name: 'CLEINBOT M79', img: '/images/home/cleinbot-m79.png', cat: 'Industrial Scrubbing Robot', desc: 'Heavy-duty floor scrubbing for airports and large commercial spaces.', href: '/products/cleinbot-m79' },
 ]
 
@@ -134,7 +134,7 @@ export default function AomanDoublePage() {
             </div>
             <div className="flex justify-center hero-image-blend">
               <Image
-                src="/images/products/aoman-double/hero-robot.png"
+                src="/images/products/aoman-double/hero-robot.webp"
                 alt="AOMAN DOUBLE Hotel Transport Robot"
                 width={520}
                 height={620}
@@ -191,7 +191,7 @@ export default function AomanDoublePage() {
           </div>
           <div className="max-w-5xl mx-auto grid md:grid-cols-2 gap-14 items-start">
             <Image
-              src="/images/products/aoman-double/tech-drawing.png"
+              src="/images/products/aoman-double/tech-drawing.webp"
               alt="AOMAN DOUBLE Technical Drawing"
               width={560}
               height={700}
@@ -253,7 +253,7 @@ export default function AomanDoublePage() {
             <div className="grid md:grid-cols-[1.65fr_1fr] gap-0 md:items-stretch">
               <div className="relative min-w-0 w-full aspect-[3/2]">
                 <Image
-                  src="/images/products/aoman-double/scene-02.png"
+                  src="/images/products/aoman-double/scene-02.webp"
                   alt="AOMAN DOUBLE in hotel environment"
                   fill
                   className="object-cover object-center"

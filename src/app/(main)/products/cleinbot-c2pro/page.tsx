@@ -45,22 +45,22 @@ const specs = [
 const scenarios = [
   {
     title: 'Shopping Malls',
-    img: '/images/products/cleinbot-c2pro/scene-01.png',
+    img: '/images/products/cleinbot-c2pro/scene-01.webp',
     points: ['Overnight automated cleaning across all floors', 'Auto elevator riding for multi-level coverage', 'Reduce custodial headcount by up to 50%'],
   },
   {
     title: 'Airports & Terminals',
-    img: '/images/products/cleinbot-c2pro/scene-02.png',
+    img: '/images/products/cleinbot-c2pro/scene-02.webp',
     points: ['24/7 terminal floor cleaning without interruption', 'Safe operation alongside passengers', 'GPS-level tracking per zone'],
   },
   {
     title: 'Hospitals & Healthcare',
-    img: '/images/products/cleinbot-c2pro/scene-03.png',
+    img: '/images/products/cleinbot-c2pro/scene-03.webp',
     points: ['Clinical-grade scrubbing for infection control', 'Scheduled zoned task execution', 'Remote monitoring and compliance logs'],
   },
   {
     title: 'Corporate & Office',
-    img: '/images/products/cleinbot-c2pro/scene-04.png',
+    img: '/images/products/cleinbot-c2pro/scene-04.webp',
     points: ['Silent night-mode for occupied buildings', 'App-based scheduling and reporting', 'Automated water tank exchange at dock'],
   },
 ]
@@ -75,7 +75,7 @@ const faqs = [
 
 const related = [
   { name: 'CLEINBOT M79', img: '/images/home/cleinbot-m79.png', cat: 'Industrial Scrubbing Robot', desc: 'Heavy-duty floor scrubbing for airports and large malls. 2,000 m²/h efficiency.', href: '/products/cleinbot-m79' },
-  { name: 'AOMAN DOUBLE', img: '/images/home/aoman-double.png', cat: 'Hotel Transport Robot', desc: '70L dual-cabin delivery robot. Fingerprint unlock, voice interaction.', href: '/products/aoman-double' },
+  { name: 'AOMAN DOUBLE', img: '/images/home/aoman-double.webp', cat: 'Hotel Transport Robot', desc: '70L dual-cabin delivery robot. Fingerprint unlock, voice interaction.', href: '/products/aoman-double' },
   { name: 'CADEBOT L100', img: '/images/home/cadebot-l100.png', cat: 'Smart Delivery Robot', desc: 'Autonomous food & goods delivery for restaurants, hotels and hospitals.', href: '/products/cadebot-l100' },
 ]
 
@@ -135,7 +135,7 @@ export default function CleinbotC2ProPage() {
             </div>
             <div className="flex justify-center hero-image-blend">
               <Image
-                src="/images/products/cleinbot-c2pro/hero-robot.png"
+                src="/images/products/cleinbot-c2pro/hero-robot.webp"
                 alt="CLEINBOT C2 Pro Commercial Cleaning Robot"
                 width={520}
                 height={620}
@@ -226,7 +226,7 @@ export default function CleinbotC2ProPage() {
           </div>
           <div className="max-w-5xl mx-auto grid md:grid-cols-2 gap-14 items-start">
             <Image
-              src="/images/products/cleinbot-c2pro/tech-drawing.png"
+              src="/images/products/cleinbot-c2pro/tech-drawing.webp"
               alt="CLEINBOT C2 Pro Technical Drawing"
               width={560}
               height={700}
@@ -288,7 +288,7 @@ export default function CleinbotC2ProPage() {
             <div className="grid md:grid-cols-[1.5fr_1fr] gap-0 md:items-stretch">
               <div className="relative min-w-0 w-full aspect-[3/2]">
                 <Image
-                  src="/images/products/cleinbot-c2pro/scene-05.png"
+                  src="/images/products/cleinbot-c2pro/scene-05.webp"
                   alt="CLEINBOT C2 Pro in operation"
                   fill
                   className="object-cover object-center"
